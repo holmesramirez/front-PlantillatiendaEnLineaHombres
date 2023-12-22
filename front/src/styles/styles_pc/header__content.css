@@ -1,0 +1,40 @@
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    padding: 0 200px;
+}
+
+.header__img {
+    flex-basis: 50%;
+    text-align: center;
+}
+
+.header__txt {
+    flex-basis: 50%;
+    text-align: center;
+}
+
+.header__txt h1{
+    font-size: 90px;
+    text-transform: uppercase;
+    line-height: 1.09;
+    color: #111111;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 15px;
+}
+
+.header__txt p {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.btn__1 {
+    display: inline-block;
+    padding: 11px 25px;
+    background-color: #111111;
+    color: #ffffff;
+    border-radius: 5px;
+}

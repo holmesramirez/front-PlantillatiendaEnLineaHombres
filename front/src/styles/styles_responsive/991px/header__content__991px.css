@@ -1,0 +1,23 @@
+@media (max-width:991px) {
+    .header {
+        min-height: 0vh;
+    }
+
+    .header__content {
+        padding: 50px 0;
+        flex-direction: column;
+    }
+
+    .header__img {
+        display: none;
+    }
+
+    .header__txt {
+        flex-basis: 100%;
+        text-align: center;
+    }
+
+    .header__txt h1 {
+        font-size: 70px;
+    }
+}

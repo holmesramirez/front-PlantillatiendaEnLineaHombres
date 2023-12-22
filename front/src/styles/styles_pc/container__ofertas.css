@@ -1,0 +1,41 @@
+.container__ofertas {
+    padding: 20px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.producto__ofert {
+    display: flex;
+    align-items: center;
+    flex-basis: calc(33.3% - 15px);
+    background-color: #f5f5f5;
+    padding: 35px;
+}
+
+.container__ofertas img {
+    flex-basis: 50%;
+    margin-right: 15px;
+    width: 250px;
+}
+
+.producto__oferttxt {
+    flex-basis: 50%;
+    text-align: center;
+}
+
+.producto__oferttxt h1 {
+    color: #111111;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.btm__2 {
+    display: inline-block;
+    padding: 7px 10px;
+    background-color: #111111;
+    color: #f5f5f5;
+    border-radius: 5px;
+    font-size: 15px;
+}

@@ -1,0 +1,11 @@
+@media (max-width:991px) {
+    .container__ofertas {
+        padding: 30px 30px 0 30px;
+        flex-direction: column;
+    }
+
+    .producto__ofert {
+        margin-bottom: 30px;
+        
+    }
+}

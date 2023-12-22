@@ -1,0 +1,26 @@
+/*header*/
+@import url(./styles_pc/style.css);
+@import url(./styles_pc/menu.css);
+@import url(./styles_pc/header__content.css);
+
+/*section container__ofertas*/
+@import url(./styles_pc/container__ofertas.css);
+
+/*products container*/
+@import url(./styles_pc/products__container.css);
+
+/*footer*/
+@import url(./styles_pc/footer.css);
+
+/*-----------------RESPONSIVE----------------------------------------------------*/
+
+/*header__content__991px*/
+@import url(./styles_responsive/991px/header__content__991px.css);
+
+/*menu__991px*/
+@import url(./styles_responsive/991px/menu__991px.css);
+
+/*container__ofertas__991px*/
+@import url(./styles_responsive/991px/container__ofertas__991px.css);
+
+

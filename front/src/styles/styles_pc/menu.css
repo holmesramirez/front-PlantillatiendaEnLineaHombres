@@ -1,0 +1,77 @@
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    /*Uso de flex-box*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #111111;
+    display: block;
+}
+
+.menu .navbar ul li a:hover {
+    transform: scale(1.15);
+    transition: 0.9s;
+}
+
+#menu{
+    display: none;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+.submenu {
+    position: relative;
+}
+
+.submenu #carrito {
+    display: none;
+}
+
+.submenu:hover #carrito {
+    display: block;
+    position: absolute;
+    right: 0;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    top: 100%;
+    z-index: 1;
+    background-color: #4e4B5076;
+    padding: 20px;
+    min-width: 400px;
+}
+
+.table {
+    width: 100%;
+}
+
+th, td {
+    color: #ffffff;
+}
+
+.borrar {
+    background-color: #111111;
+    border-radius: 50%;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 800;
+    cursor: pointer;
+}

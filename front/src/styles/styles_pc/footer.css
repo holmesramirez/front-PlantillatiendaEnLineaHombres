@@ -1,0 +1,24 @@
+.footer {
+    padding: 50px 0px;
+    background-color: #111111;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link h3 {
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.link a {
+    font-size: 16px;
+    color: #dcdcdc;
+    display: block;
+    margin-bottom: 10px;
+} 
